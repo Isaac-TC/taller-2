@@ -31,14 +31,15 @@ export const screen2 = () => {
       <View style={styles.contentInput} >
          <Text style={styles.titleBody}>Formulario</Text>
       <TextInput
-        placeholder="Numerador"
+      style={styles.input1}
+        placeholder="Numero1"
         keyboardType="numeric"
         value={numerador}
         onChangeText={setNumerador}
       />
       <TextInput
-        style={styles.input}
-        placeholder="Denominador"
+        style={styles.input1}
+        placeholder="Numero2"
         keyboardType="numeric"
         value={denominador}
         onChangeText={setDenominador}
@@ -48,7 +49,7 @@ export const screen2 = () => {
             </View>*/}
         <View style={styles.contentInput}>
       <Button title ="Dividir" onPress={dividir} />
-      <Text >{resultado}</Text>
+      <Text  style={styles.resultado}>{resultado}</Text>
       </View>
     </View>
   );

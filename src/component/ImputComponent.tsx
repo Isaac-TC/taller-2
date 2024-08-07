@@ -6,17 +6,18 @@ import { styles } from '../theme/appTheme'
 //interface - props
 interface Props{
     placeholder: string;
-    numerador:string;
-    setNumerador: string;
+    value:string;
+    onChangeText:string;
 
 }
 
-export const ImputComponent = ({ placeholder,numerador, setNumerador}:Props) => {
+export const ImputComponent = ({ placeholder,value,onChangeText}:Props) => {
   return (
     <TextInput
     placeholder={placeholder}
     keyboardType='numeric'
-    value={numerador}
+    value={value}
+    onChangeText={onChangeText}
     
     
     style={styles.imputText}

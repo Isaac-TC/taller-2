@@ -62,7 +62,16 @@ export const styles= StyleSheet.create({
         paddingHorizontal: 40,
         paddingTop: 40
     },
-    input: { //ingreso de numeros 
+    input1: { //ingreso de numeros 
+        height: 40,
+        
+        borderColor: 'orange',
+        borderWidth: 1,
+        marginBottom: 16,
+        width: '80%',
+        paddingHorizontal: 8,
+      },
+      input2: { //ingreso de numeros 
         height: 40,
         borderColor: 'orange',
         borderWidth: 1,
@@ -71,9 +80,13 @@ export const styles= StyleSheet.create({
         paddingHorizontal: 8,
       },
       resultado: {//resultado 
-        marginTop: 16,
-        fontSize: 20,
-        fontWeight: 'bold',
+        height: 40,
+        
+        borderColor: 'orange',
+        borderWidth: 1,
+        marginBottom: 16,
+        width: '80%',
+        paddingHorizontal: 8,
       },
 
 })
