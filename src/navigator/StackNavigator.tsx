@@ -16,7 +16,7 @@ export const StackNavigator = () => {
     <Stack.Navigator    
     screenOptions={{
       cardStyle:{
-        backgroundColor:'#204d75'
+        backgroundColor:'#13BECE'
       }
       }}>
 

@@ -28,7 +28,7 @@ export const screen2 = () => {
   return (
     
     
-      <View style={styles.contentInput} >
+      <View>
          <Text style={styles.titleBody}>Formulario</Text>
       <TextInput
       style={styles.input1}
@@ -47,7 +47,7 @@ export const screen2 = () => {
            {/* <ImputComponent placeholder='Campo número1'/>
             <ImputComponent placeholder='Campo número2'/>
             </View>*/}
-        <View style={styles.contentInput}>
+        <View style={styles.imputdv}>
       <Button title ="Dividir" onPress={dividir} />
       <Text  style={styles.resultado}>{resultado}</Text>
       </View>

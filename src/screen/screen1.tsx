@@ -11,7 +11,7 @@ interface Props extends StackScreenProps<RootStackParams,'Home'> { }
 
 export const screen1 = ({navigation}:Props) => {
   return (
-    <View>
+    <View style={styles.container}>
       
       
       <Text style={styles.titleBody}>Bienvenido</Text>
@@ -19,12 +19,7 @@ export const screen1 = ({navigation}:Props) => {
   
       <Image source={require('../../assets/app.webp')} style={styles.image}/>
      
-      
-      
-
-
-
-      <TouchableOpacity style={styles.contentInput} onPress={() => navigation.navigate('Screen2')}>
+     <TouchableOpacity style={styles.contentInput} onPress={() => navigation.navigate('Screen2')}>
         <Text style={styles.buttonText}>Acceder</Text>
       </TouchableOpacity>
 

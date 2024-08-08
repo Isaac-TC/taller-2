@@ -17,7 +17,7 @@ export const ImputComponent = ({ placeholder,value,onChangeText}:Props) => {
     placeholder={placeholder}
     keyboardType='numeric'
     value={value}
-    onChangeText={onChangeText}
+    
     
     
     style={styles.imputText}

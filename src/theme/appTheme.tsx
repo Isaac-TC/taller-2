@@ -23,7 +23,10 @@ export const styles= StyleSheet.create({
    
     contentInput:{
         marginTop:30,
-        gap:10
+        gap:10,
+        width:200,
+        height:50,
+        borderRadius:20
     },
 
     button:{
@@ -35,8 +38,12 @@ export const styles= StyleSheet.create({
         borderColor: 'black'
     },
     buttonText:{//boton acceder
-    
-        backgroundColor:'#81b1db',
+        justifyContent:'center',
+        //alignSelf:'center',
+        borderRadius:15,
+        borderColor:'black',
+        borderWidth:2,
+        backgroundColor:'#CBD3D2',
         color:'black',
         fontSize:40,
         fontWeight:'bold',
@@ -44,10 +51,16 @@ export const styles= StyleSheet.create({
     
     },
     titleBody:{//titulo bienvenidos
+
         fontSize:40,
         fontWeight:'bold',
         color:'black',
-        textAlign:'center'
+        textAlign:'center',
+        justifyContent:'center',
+        textAlignVertical:'center',
+        marginBottom:80,
+        marginTop:'20%'
+
     },
     imputText:{
         backgroundColor:IMPUT_COLOR,
@@ -65,28 +78,46 @@ export const styles= StyleSheet.create({
     input1: { //ingreso de numeros 
         height: 40,
         
-        borderColor: 'orange',
+        borderColor: 'black',
         borderWidth: 1,
         marginBottom: 16,
         width: '80%',
         paddingHorizontal: 8,
+        justifyContent:'center',
+        backgroundColor:'white',
+        alignSelf:'center',
+        alignContent:'center',
+        marginTop:15
       },
       input2: { //ingreso de numeros 
         height: 40,
-        borderColor: 'orange',
+        borderColor: 'black',
         borderWidth: 1,
         marginBottom: 16,
         width: '80%',
         paddingHorizontal: 8,
       },
       resultado: {//resultado 
+        fontSize:17,
         height: 40,
-        
-        borderColor: 'orange',
+        marginTop:'10%',
+        borderColor: 'black',
         borderWidth: 1,
-        marginBottom: 16,
-        width: '80%',
-        paddingHorizontal: 8,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        color:'white',
+        textAlign:'center',
+        justifyContent:'center'
+        
+        
       },
+      imputdv: {
+        marginTop:'5%',
+        width:200,
+        height:50,
+        alignSelf:'center',
+        fontSize:30,
+
+
+      }
 
 })
